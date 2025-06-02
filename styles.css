@@ -6,3 +6,94 @@ body {
 h1 {
   color: #3333cc;
 }
+
+/* Reset and basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+body {
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  background: white;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 30px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #4a90e2;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 1.2rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+section h2 {
+  border-bottom: 2px solid #4a90e2;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: #4a90e2;
+}
+
+.bio p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.contact ul,
+.skills ul {
+  list-style: none;
+}
+
+.contact li,
+.skills li {
+  padding: 6px 0;
+  font-size: 1rem;
+}
+
+.contact a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-top: 40px;
+}
